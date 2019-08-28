@@ -10,7 +10,7 @@
       Sample Web Page
     </title>
   </head>
-  <body>
+  <body style ="width: 100%; max-width:720px"> == $0
     <h2>Sample Web Page</h2>
     <img src="http://www.columbia.edu/~fdc/picture-of-something.jpg" />
     <p><i>A random photo</i></p>
@@ -55,11 +55,127 @@
       your PC to create an index.html file, which you can view locally wi
       th your Web browser. (You can also use word processors such as Wor
       d or WordPad if you save in "plain text", "text", "text document",
-       or "text document MS-DOS format".) Later I'll explain how you can 
+       or "text document MS-DOS format".) <a href ="#installing-your-web-page">Later</a> I'll explain how you can 
        install your web site on the Internet.
+    </p>
+    <p>
+      <i><dt>Example for Windows:</dt></i> <dd>Move your mouse cursor to the desktop. Right-click, choose <i>New</i>,
+      hen choose <i>Folder</i>, and a "New Folder" appears, with its name highlighted. Type "Web"
+      to change the folder's name to Web (or anything else you want). Then start NotePad to
+      create your first Web page.</dd>
     </p>
     <hr>
     <h3 id ="html-syntax">2. HTML Syntax</h3>
+    <p>
+      Web pages are written in Hyper Text Markup Language (HTML). HTML has 
+      three special characters: &lt;, &amp;, &gt;. An HTML command is enclosed in &lt;...&gt;, 
+      for example &lt;p&gt;, which is a paragraph separator, or &lt;b&gt; ("begin bold") and
+         &lt;/b&gt; ("end bold"). So the following HTML text:
+    </p>
+      <blockquote></blockquote>
+        <pre>
+             This sentence contains &lt;b&gt;bold&lt;/b&gt; text.
+        </pre>
+      </blockquote>
+    <p>
+
+       produces:
+    </p>     
+    <p>
+      <blockquote>
+        This sentence contains <b>bold</b> text.
+      </blockquote>
+    </p>
+    <p>
+            
+      A Web page starts with a series of HTML commands, and ends with a few more.  The contents go in between:
+    </p>      
+    <p>
+      <blockquote>
+        <pre>
+          &lt;!DOCTYPE HTML&gt;
+          &lt;html lang="en"&gt;
+          &lt;head&gt;
+          &lt;META charset="UTF-8"&gt;
+          &lt;META name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          &lt;title&gt;Sample Web Page&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+        </pre>
+          <p>
+            <i>(Contents go here)</i>
+          </p> 
+            <p>
+             <pre>
+               &lt;/body&gt;
+               &lt;/html&gt;
+             </pre>
+             </p>
+      </blockquote>
+    </p>
+    <p>
+        The first line (DOCTYPE) specifies which language
+        the page uses (<a href="https://en.wikipedia.org/wiki/HTML">HTML</a> =
+        Hypertext Markup Language); just copy this line.  The next
+        line, &lt;html&gt;, starts the page, and is matched
+        by the last line, &lt;/html&gt;, which closes the
+        page.  &lt;head&gt;, starts the heading, which
+        contains a title to be displayed on the browser's title bar and a
+        declaration of the character set (nowadays it should always be
+        <a href="https://en.wikipedia.org/wiki/UTF-8">UTF-8</a>) and the "viewport"
+        line which is a compulsory adaptation for cell phones, "smart" watches, etc.
+        &lt;/head&gt; closes the heading.
+    </p> 
+    <p>
+        The &lt;body&gt; tag starts the body of the
+        document, is closed by &lt;/body&gt; tag.
+    </p>
+    <p>
+        As you can see, most HTML commands come in begin-end pairs:
+        &lt;b&gt;...&lt;/b&gt;,
+        &lt;head&gt;...&lt;/head&gt;, etc.  The closing part of the command
+        has a slash (/) between the &lt; and the first letter of
+        the command.
+    </p>
+    <p>
+        Blank lines and line breaks are ignored.  The browser automatically "flows"
+        your text into lines and paragraphs that fit in its window.  Paragraphs must
+        be separated by &lt;p&gt;.  Line breaks can be forced by
+        &lt;br&gt;.
+    </p>
+    <p>
+      <dl>
+         <dt><i>Example for Windows:</i>
+            <dd>Use the mouse to copy the HTML above into NotePad.  Then save the file
+            (<i>File</i>&nbsp;-&gt;&nbsp;<i>Save&nbsp;As...</i>)
+            in your Web directory as index.html.  Suppose your Windows username
+           is Olga.  Then (depending on which version of Windows you have) this might
+            be:
+        
+        <p>
+        <blockquote>
+        <pre>
+        C:\Documents and Settings\Olga\Desktop\Web\index.html
+        </pre>
+        </blockquote>
+        <p>
+        
+        Now to see your new web page, just double-click on the Web folder and
+        then double-click on index.html.
+        </dl>
+        <p>
+        
+        Now you're ready to start adding "content" to your web page.  Go back to
+        NotePad and replace the title and "(Contents go here)" with whatever you
+        want.  Any time you want to see the result, use
+        <i>File</i>&nbsp;-&gt;&nbsp;<i>Save</i> in NotePad and then
+        click the Reload button on your browser.
+        
+        <p>
+        
+        The next sections tell how to achieve different kinds of effects.
+        
+        <p>
     <hr>
     <h3 id= "special-characters">3. Special Characters</h3>
     <hr>
