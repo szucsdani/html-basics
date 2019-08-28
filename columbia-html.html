@@ -1,98 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <META charset="UTF-8" />
-    <META
-      name="viewport"
-      content=" width = device - width, inital - scale = 1.0"
-    />
-    <title>
-      Sample Web Page
-    </title>
-  </head>
-  <body style ="width: 100%; max-width:720px"> == $0
-    <h2>Sample Web Page</h2>
-    <img src="http://www.columbia.edu/~fdc/picture-of-something.jpg" />
-    <p><i>A random photo</i></p>
-    <p>
-      <a href="http://www.columbia.edu/~fdc/">Frank da Cruz</a><br />
-      Sat Jan 17 12:07:32 2004<br />
-      Updated 26 May 2019 for HTML5. <br />
-    </p>
-    <h3 id="contents">CONTENTS</h3>
-    <p>
-      <ol>
-        <li><a href ="#create-a-web-page">Creating a Web Page</a></li>
-        <li><a href ="#html-syntax">HTML Syntax</a></li>
-        <li><a href ="#special-characters">Special Characters</a></li>
-        <li><a href ="#converting-plain-text-html">Converting Plain Text HTML</a></li>
-        <li><a href ="#effects">Effects</a></li>
-        <li><a href ="#lists">Lists</a></li>
-        <li><a href ="#links">Links</a></li>
-        <li><a href ="#tables">Tables</a></li>
-        <li><a href ="#installing-your-web-page">Installing your Web Page on the Internet</a></li>
-        <li><a href ="#where-to-go-from-here">Where to go from here</a></li>
-      </ol>
-    </p>
-    <hr>
-      <h3 id ="create-a-web-page">1. Creating a Web Page</h3>
-    <p>
-      This page was typed by hand. Anybody can do this, 
-      you don't need any special "web creation" tools or HTML editors, 
-      and the pages you make can be viewed from any browser. 
-      To see how this page was made, choose <b>View Source</b> 
-      (or View Page Source, or View Document Source) 
-      in your browser's menu (or — in at least Chrome and Firefox — 
-      Ctrl-U on your keyboard). A simple web page like this one is just
-       plain text with HTML commands (markup) mixed in. HTML commands 
-       (properly called "tags") themselves are plain text.
-    </p>
-    <p>
-      When you're just learning and want to experiment, you can do ever
-      ything on your PC. Create a new directory ("folder") for your webs
-      ite, and then put the web-page files (HTML plus any pictures) in i
-      t. Use NotePad or other plain-text editor (not word processor) on 
-      your PC to create an index.html file, which you can view locally wi
-      th your Web browser. (You can also use word processors such as Wor
-      d or WordPad if you save in "plain text", "text", "text document",
-       or "text document MS-DOS format".) <a href ="#installing-your-web-page">Later</a> I'll explain how you can 
-       install your web site on the Internet.
-    </p>
-    <p>
-      <i><dt>Example for Windows:</dt></i> <dd>Move your mouse cursor to the desktop. Right-click, choose <i>New</i>,
+
+<head>
+  <META charset="UTF-8" />
+  <META name="viewport" content=" width = device - width, inital - scale = 1.0" />
+  <title>
+    Sample Web Page
+  </title>
+</head>
+
+<body style="width: 100%; max-width:720px"> == $0
+  <h2>Sample Web Page</h2>
+  <img src="http://www.columbia.edu/~fdc/picture-of-something.jpg" />
+  <p><i>A random photo</i></p>
+  <p>
+    <a href="http://www.columbia.edu/~fdc/">Frank da Cruz</a><br />
+    Sat Jan 17 12:07:32 2004<br />
+    Updated 26 May 2019 for HTML5. <br />
+  </p>
+  <h3 id="contents">CONTENTS</h3>
+  <p>
+    <ol>
+      <li><a href="#create-a-web-page">Creating a Web Page</a></li>
+      <li><a href="#html-syntax">HTML Syntax</a></li>
+      <li><a href="#special-characters">Special Characters</a></li>
+      <li><a href="#converting-plain-text-html">Converting Plain Text HTML</a></li>
+      <li><a href="#effects">Effects</a></li>
+      <li><a href="#lists">Lists</a></li>
+      <li><a href="#links">Links</a></li>
+      <li><a href="#tables">Tables</a></li>
+      <li><a href="#installing-your-web-page">Installing your Web Page on the Internet</a></li>
+      <li><a href="#where-to-go-from-here">Where to go from here</a></li>
+    </ol>
+  </p>
+  <hr>
+  <h3 id="create-a-web-page">1. Creating a Web Page</h3>
+  <p>
+    This page was typed by hand. Anybody can do this,
+    you don't need any special "web creation" tools or HTML editors,
+    and the pages you make can be viewed from any browser.
+    To see how this page was made, choose <b>View Source</b>
+    (or View Page Source, or View Document Source)
+    in your browser's menu (or — in at least Chrome and Firefox —
+    Ctrl-U on your keyboard). A simple web page like this one is just
+    plain text with HTML commands (markup) mixed in. HTML commands
+    (properly called "tags") themselves are plain text.
+  </p>
+  <p>
+    When you're just learning and want to experiment, you can do ever
+    ything on your PC. Create a new directory ("folder") for your webs
+    ite, and then put the web-page files (HTML plus any pictures) in i
+    t. Use NotePad or other plain-text editor (not word processor) on
+    your PC to create an index.html file, which you can view locally wi
+    th your Web browser. (You can also use word processors such as Wor
+    d or WordPad if you save in "plain text", "text", "text document",
+    or "text document MS-DOS format".) <a href="#installing-your-web-page">Later</a> I'll explain how you can
+    install your web site on the Internet.
+  </p>
+  <p><i>
+      <dt>Example for Windows:</dt>
+    </i>
+    <dd>Move your mouse cursor to the desktop. Right-click, choose <i>New</i>,
       hen choose <i>Folder</i>, and a "New Folder" appears, with its name highlighted. Type "Web"
       to change the folder's name to Web (or anything else you want). Then start NotePad to
       create your first Web page.</dd>
-    </p>
-    <hr>
-    <h3 id ="html-syntax">2. HTML Syntax</h3>
-    <p>
-      Web pages are written in Hyper Text Markup Language (HTML). HTML has 
-      three special characters: &lt;, &amp;, &gt;. An HTML command is enclosed in &lt;...&gt;, 
-      for example &lt;p&gt;, which is a paragraph separator, or &lt;b&gt; ("begin bold") and
-         &lt;/b&gt; ("end bold"). So the following HTML text:
-    </p>
-      <blockquote></blockquote>
-        <pre>
+  </p>
+  <hr>
+  <h3 id="html-syntax">2. HTML Syntax</h3>
+  <p>
+    Web pages are written in Hyper Text Markup Language (HTML). HTML has
+    three special characters: &lt;, &amp;, &gt;. An HTML command is enclosed in &lt;...&gt;,
+    for example &lt;p&gt;, which is a paragraph separator, or &lt;b&gt; ("begin bold") and
+    &lt;/b&gt; ("end bold"). So the following HTML text:
+  </p>
+  <blockquote></blockquote>
+  <pre>
              This sentence contains &lt;b&gt;bold&lt;/b&gt; text.
         </pre>
-      </blockquote>
-    <p>
+  </blockquote>
+  <p>
 
-       produces:
-    </p>     
-    <p>
-      <blockquote>
-        This sentence contains <b>bold</b> text.
-      </blockquote>
-    </p>
-    <p>
-            
-      A Web page starts with a series of HTML commands, and ends with a few more.  The contents go in between:
-    </p>      
-    <p>
-      <blockquote>
-        <pre>
+    produces:
+  </p>
+  <p>
+    <blockquote>
+      This sentence contains <b>bold</b> text.
+    </blockquote>
+  </p>
+  <p>
+
+    A Web page starts with a series of HTML commands, and ends with a few more. The contents go in between:
+  </p>
+  <p>
+    <blockquote>
+      <pre>
           &lt;!DOCTYPE HTML&gt;
           &lt;html lang="en"&gt;
           &lt;head&gt;
@@ -102,151 +103,187 @@
           &lt;/head&gt;
           &lt;body&gt;
         </pre>
-          <p>
-            <i>(Contents go here)</i>
-          </p> 
-            <p>
-             <pre>
+      <p>
+        <i>(Contents go here)</i>
+      </p>
+      <p>
+        <pre>
                &lt;/body&gt;
                &lt;/html&gt;
              </pre>
-             </p>
-      </blockquote>
-    </p>
-    <p>
-        The first line (DOCTYPE) specifies which language
-        the page uses (<a href="https://en.wikipedia.org/wiki/HTML">HTML</a> =
-        Hypertext Markup Language); just copy this line.  The next
-        line, &lt;html&gt;, starts the page, and is matched
-        by the last line, &lt;/html&gt;, which closes the
-        page.  &lt;head&gt;, starts the heading, which
-        contains a title to be displayed on the browser's title bar and a
-        declaration of the character set (nowadays it should always be
-        <a href="https://en.wikipedia.org/wiki/UTF-8">UTF-8</a>) and the "viewport"
-        line which is a compulsory adaptation for cell phones, "smart" watches, etc.
-        &lt;/head&gt; closes the heading.
-    </p> 
-    <p>
-        The &lt;body&gt; tag starts the body of the
-        document, is closed by &lt;/body&gt; tag.
-    </p>
-    <p>
-        As you can see, most HTML commands come in begin-end pairs:
-        &lt;b&gt;...&lt;/b&gt;,
-        &lt;head&gt;...&lt;/head&gt;, etc.  The closing part of the command
-        has a slash (/) between the &lt; and the first letter of
-        the command.
-    </p>
-    <p>
-        Blank lines and line breaks are ignored.  The browser automatically "flows"
-        your text into lines and paragraphs that fit in its window.  Paragraphs must
-        be separated by &lt;p&gt;.  Line breaks can be forced by
-        &lt;br&gt;.
-    </p>
-    <p>
-      <dl>
-         <dt><i>Example for Windows:</i>
-            <dd>Use the mouse to copy the HTML above into NotePad.  Then save the file
-            (<i>File</i>&nbsp;-&gt;&nbsp;<i>Save&nbsp;As...</i>)
-            in your Web directory as index.html.  Suppose your Windows username
-           is Olga.  Then (depending on which version of Windows you have) this might
-            be:
-        
+      </p>
+    </blockquote>
+  </p>
+  <p>
+    The first line (DOCTYPE) specifies which language
+    the page uses (<a href="https://en.wikipedia.org/wiki/HTML">HTML</a> =
+    Hypertext Markup Language); just copy this line. The next
+    line, &lt;html&gt;, starts the page, and is matched
+    by the last line, &lt;/html&gt;, which closes the
+    page. &lt;head&gt;, starts the heading, which
+    contains a title to be displayed on the browser's title bar and a
+    declaration of the character set (nowadays it should always be
+    <a href="https://en.wikipedia.org/wiki/UTF-8">UTF-8</a>) and the "viewport"
+    line which is a compulsory adaptation for cell phones, "smart" watches, etc.
+    &lt;/head&gt; closes the heading.
+  </p>
+  <p>
+    The &lt;body&gt; tag starts the body of the
+    document, is closed by &lt;/body&gt; tag.
+  </p>
+  <p>
+    As you can see, most HTML commands come in begin-end pairs:
+    &lt;b&gt;...&lt;/b&gt;,
+    &lt;head&gt;...&lt;/head&gt;, etc. The closing part of the command
+    has a slash (/) between the &lt; and the first letter of
+    the command.
+  </p>
+  <p>
+    Blank lines and line breaks are ignored. The browser automatically "flows"
+    your text into lines and paragraphs that fit in its window. Paragraphs must
+    be separated by &lt;p&gt;. Line breaks can be forced by
+    &lt;br&gt;.
+  </p>
+  <p>
+    <dl>
+      <dt><i>Example for Windows:</i>
+      <dd>Use the mouse to copy the HTML above into NotePad. Then save the file
+        (<i>File</i>&nbsp;-&gt;&nbsp;<i>Save&nbsp;As...</i>)
+        in your Web directory as index.html. Suppose your Windows username
+        is Olga. Then (depending on which version of Windows you have) this might
+        be:
+
         <p>
-        <blockquote>
-        <pre>
+          <blockquote>
+            <pre>
         C:\Documents and Settings\Olga\Desktop\Web\index.html
         </pre>
-        </blockquote>
-        <p>
-        
-        Now to see your new web page, just double-click on the Web folder and
-        then double-click on index.html.
-        </dl>
-        <p>
-        
-        Now you're ready to start adding "content" to your web page.  Go back to
-        NotePad and replace the title and "(Contents go here)" with whatever you
-        want.  Any time you want to see the result, use
-        <i>File</i>&nbsp;-&gt;&nbsp;<i>Save</i> in NotePad and then
-        click the Reload button on your browser.
-        
-        <p>
-        
+          </blockquote>
+          <p>
+
+            Now to see your new web page, just double-click on the Web folder and
+            then double-click on index.html.
+    </dl>
+    <p>
+
+      Now you're ready to start adding "content" to your web page. Go back to
+      NotePad and replace the title and "(Contents go here)" with whatever you
+      want. Any time you want to see the result, use
+      <i>File</i>&nbsp;-&gt;&nbsp;<i>Save</i> in NotePad and then
+      click the Reload button on your browser.
+
+      <p>
+
         The next sections tell how to achieve different kinds of effects.
-        
+
         <p>
-    <hr>
-    <h3 id= "special-characters">3. Special Characters</h3>
-    <p>
-      HTML special "character entities" start with ampersand (&amp;) and end with semicolon (;), like "&amp;euro" = "&euro;". The ever-popular "no-break space"
-      is &amp;nbsp;. There are special entity names for accented Latin letters and other
-      West European special characters such as:
-    </p>
-    <p>
-      <blockquote>
-      <table border>
-       <tr>
-          <td>&amp;auml;</th>
-          <td>a-umlaut</td>
-          <td>&nbsp;&auml;&nbsp;</td>
-        </tr>
-        <tr>
-          <td>&amp;Auml;</td>
-          <td>A-umlaut</td>
-          <td>&nbsp;&Auml;&nbsp;</td>
-        </tr>
-        <tr>
-          <td>&amp;aacute;</td>
-          <td>a-acute</td>
-          <td>&nbsp;&aacute;&nbsp;</td>
-        </tr>
-        <tr>
-          <td>&amp;agrave;</td>
-          <td>a-grave</td>
-          <td>&nbsp;&agrave;&nbsp;</td>
-        </tr>
-        <tr>
-          <td>&amp;ntilde;</td>
-          <td>n-tilde</td>
-          <td>&nbsp;&ntilde;&nbsp;</td>
-        </tr>
-        <tr>
-          <td>&amp;szlig;</td>
-          <td>German double-s</td>
-          <td>&nbsp;&szlig;&nbsp;</td>
-        </tr>
-        <tr>
-          <td>&amp;thorn;</td>
-          <td>Icelandic thorn</td>
-          <td>&nbsp;&thorn;&nbsp;</td>
-        </tr>
-      </table>
-      </blockquote>
-    </p>
-    <p>
-      <a href ="http://www.columbia.edu/~fdc/entities.html">CLICK HERE</a> for a complete list.
-      When the page encoding is <a href ="https://en.wikipedia.org/wiki/UTF-8">UTF-8</a>, 
-      which is recommended, you can also enter any character at all, Roman, Cyrillic, Arabic, Greek. Japanese, etc,
-      either as numeric entities or (if you have a way to type them) directly from the keyboard.
-    </p>
-    <p>
-      And remember: if you want to include &lt;, &amp; or &gt; literally in text to be displayed,
-      you have to write &amp;lt; &amp;amp;, &amp;gt;, respectively.
-    </p>
-    <hr>
-    <h3 id ="converting-plain-text-html">4. Converting Plain Text HTML</h3>
-    <hr>
-    <h3 id ="effects">5. Effects</h3>
-    <hr>
-    <h3 id="lists">6. Lists</h3>
-    <hr>
-    <h3 id="links">7. Links</h3>
-    <hr>
-    <h3 id="tables">8. Tables</h3>
-    <hr>
-    <h3 id="installing-your-web-page">9. Installing your Web Page on the Internet</h3>
-    <hr>
-    <h3 id="where-to-go-from-here">10. Where to go from here</h3>
-  </body>
+          <hr>
+          <h3 id="special-characters">3. Special Characters</h3>
+          <p>
+            HTML special "character entities" start with ampersand (&amp;) and end with semicolon (;), like "&amp;euro"
+            = "&euro;". The ever-popular "no-break space"
+            is &amp;nbsp;. There are special entity names for accented Latin letters and other
+            West European special characters such as:
+          </p>
+          <p>
+            <blockquote>
+              <table border>
+                <tr>
+                  <td>&amp;auml;</th>
+                  <td>a-umlaut</td>
+                  <td>&nbsp;&auml;&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&amp;Auml;</td>
+                  <td>A-umlaut</td>
+                  <td>&nbsp;&Auml;&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&amp;aacute;</td>
+                  <td>a-acute</td>
+                  <td>&nbsp;&aacute;&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&amp;agrave;</td>
+                  <td>a-grave</td>
+                  <td>&nbsp;&agrave;&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&amp;ntilde;</td>
+                  <td>n-tilde</td>
+                  <td>&nbsp;&ntilde;&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&amp;szlig;</td>
+                  <td>German double-s</td>
+                  <td>&nbsp;&szlig;&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>&amp;thorn;</td>
+                  <td>Icelandic thorn</td>
+                  <td>&nbsp;&thorn;&nbsp;</td>
+                </tr>
+              </table>
+            </blockquote>
+          </p>
+          <p>
+            <a href="http://www.columbia.edu/~fdc/entities.html">CLICK HERE</a> for a complete list.
+            When the page encoding is <a href="https://en.wikipedia.org/wiki/UTF-8">UTF-8</a>,
+            which is recommended, you can also enter any character at all, Roman, Cyrillic, Arabic, Greek. Japanese,
+            etc,
+            either as numeric entities or (if you have a way to type them) directly from the keyboard.
+          </p>
+          <p>
+            And remember: if you want to include &lt;, &amp; or &gt; literally in text to be displayed,
+            you have to write &amp;lt; &amp;amp;, &amp;gt;, respectively.
+          </p>
+          <hr>
+          <h3 id="converting-plain-text-html">4. Converting Plain Text HTML</h3>
+          <p>
+            If you have a plain text file that you want to convert to HTML, load the file into a
+            plain-text editor and then follow these steps.
+          </p>
+          <p>
+            <ol>
+              <li>Change all occurrences of "&amp;" to "&amp;amp;".</li>
+              <li>Change all occurrences of "&lt;" to "&amp;lt;".</li>
+              <li>Change all occurrences of "&gt;" to "&amp;gt;".</li>
+              <li>Change any accented letters to HTML entry names (previous section).</li>
+              <li>Put "&lt;p&gt; between each paragraph."</li>
+              <li>Insert the standard prolog at the top, substituing an appropriate title.</li>
+              <li>Insert the standard epilog at the bottom.</li>
+              <li>Save the result as xxx.html, where xxx is the part of the original file's name before
+                the dot. For example, if the original file was letter.txt, save the edited version as
+                letter.html.</li>
+            </ol>
+          </p>
+          <p>
+            If you are a <a href="http://www.columbia.edu/kermit/">Kermit</a> user, you can find
+            a script to convert plain text to HTML <a
+              href="http://www.columbia.edu/kermit/ckscripts.html#html">HERE</a>.
+          </p>
+          <p>
+            If the text contains lists, tables, or other structures, read on.
+          </p>
+          <p>
+            If you have a Microsoft Word document you want to convert to HTML, and your copy
+            of Word does not allow the file to be "Saved As" HTML, then save it as plain text
+            and follow the same instructions. In this case you lose the "richness" (bold,
+            italics, font changes, etc) when you save the file, and will have to put the effects
+            back by hand (next section).
+          </p>
+          <hr>
+          <h3 id="effects">5. Effects</h3>
+          <hr>
+          <h3 id="lists">6. Lists</h3>
+          <hr>
+          <h3 id="links">7. Links</h3>
+          <hr>
+          <h3 id="tables">8. Tables</h3>
+          <hr>
+          <h3 id="installing-your-web-page">9. Installing your Web Page on the Internet</h3>
+          <hr>
+          <h3 id="where-to-go-from-here">10. Where to go from here</h3>
+</body>
+
 </html>
