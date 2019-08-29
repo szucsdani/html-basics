@@ -9,7 +9,7 @@
   </title>
 </head>
 
-<body style="width: 100%; max-width:720px"> == $0
+<body style="width: 100%; max-width:720px">
   <h2>Sample Web Page</h2>
   <img src="http://www.columbia.edu/~fdc/picture-of-something.jpg" />
   <p><i>A random photo</i></p>
@@ -307,6 +307,66 @@
           And here we are back outside of the first blockquote.
           <hr>
           <h3 id="lists">6. Lists</h3>
+          <p>
+            Here is an Unordered (bullet) List (&lt;ul&gt;...&lt;ul&gt;):
+          </p>
+          <ul>
+            <li>This is a List Item (&lt;li&gt;)</li>
+            <li>This is an another item.</li>
+            <li>This is yet another item.</li>
+          </ul>
+          <p>
+            Here is an Ordored (numbered) List (&lt;ol&gt;...&lt;ol&gt;):
+          </p>
+          <ol>
+            <li>This is a List Item (&lt;li&gt;)</li>
+            <li>This is an another item.</li>
+            <li>This is yet another item.</li>
+          </ol>
+          <p>
+            And here is a Description List (&lt;dl&gt;). Using Kermit commands as an example:
+          </p>
+          <dl>
+            <dt>SET FILE TYPE BINARY</dt>
+            <dd>This command tells Kermit to transfer files in binary mode. In other words, don't mess with the file,
+              just send it as-is. The result on the receiving computer should be identical to the original.</dd>
+            <p>
+
+            </p>
+            <dt>SET FILE TYPE TEXT</dt>
+            <dd>This command tells Kermit to transfer files in text mode. This should be used with plain-text files,
+              especially when transferring them between computers with different file formats or operating systems, such
+              as VMS and Unix, or Unix and Windows. It converts the file's format and character-set (if necessary) so
+              the received file is usable on the destination computer.</dd>
+          </dl>
+          <p>
+            You can have lists within lists:
+          </p>
+          <ol>
+            <li>A gromet</li>
+            <li>A widget</li>
+            <li>A framus, which consists of the following components:</li>
+            <ul>
+              <li>A doohickey.</li>
+              <li>A veeblefetzer -- these come in several colors:</li>
+              <ol>
+                <li>Purple</li>
+                <li>Purple</li>
+                <li>Purple</li>
+              </ol>
+              <li>A whatchamacallit.</li>
+            </ul>
+            <li>A doodad.</li>
+          </ol>
+          <p>
+            And you can have ordered lists that use letters instead of numbers:
+          </p>
+          <ol type="a">
+            <li>Pennies</li>
+            <li>Nickels</li>
+            <li>Dimes</li>
+            <li>Quarters</li>
+          </ol>
           <hr>
           <h3 id="links">7. Links</h3>
           <hr>
