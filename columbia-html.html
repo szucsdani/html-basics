@@ -31,6 +31,12 @@
   th {
     background-color: white;
   }
+
+  .chapter-6 {
+    background: white;
+    font: italic;
+    font-family: 'Times New Roman', Times, serif;
+  }
 </style>
 
 <head>
@@ -299,60 +305,62 @@
     back by hand (next section).
   </p>
   <hr>
-  <h3 style="color: green" id="effects">5. Effects</h3>
-  <p>
-    The rest of this document shows some of what you can do with simple HTML commands,
-    but I don't explain how to do it. To see that, just tell your browser to
-    <b>View Source</b> and compare the HTML in the source window with the result
-    in the original window.
-  </p>
-  <p>
+  <div class="chapter-6">
+    <h3 style="color: green" id="effects">5. Effects</h3>
+    <p>
+      The rest of this document shows some of what you can do with simple HTML commands,
+      but I don't explain how to do it. To see that, just tell your browser to
+      <b>View Source</b> and compare the HTML in the source window with the result
+      in the original window.
+    </p>
+    <p>
+      <blockquote>
+        <i>Note:</i> In this and the following sections, I use some "deprecated" features from earlier
+        HTML versions because they are easier for beginners to learn (for example &lt;big&gt;...&lt;/big&gt;
+        versus &lt;span style ="font-size:120"%&gt;...&lt;/span&gt;).
+      </blockquote>
+    </p>
+    <P>
+      <b>This sentence is bold.</b> <i> This sentence is in italics.</i> <b><i>This sentence
+          is in bold italics. </i></b> This sentence is in typewriter font. This sentence has <u>underlined
+        words</u> and <u><b>underlined bold words.</b></u>. This sentence has colored words. This sentence has big
+      words. This
+      one has very big words. This one has very small words.
+    </P>
     <blockquote>
-      <i>Note:</i> In this and the following sections, I use some "deprecated" features from earlier
-      HTML versions because they are easier for beginners to learn (for example &lt;big&gt;...&lt;/big&gt;
-      versus &lt;span style ="font-size:120"%&gt;...&lt;/span&gt;).
+      This is a "blockquote", which is like a regular paragraph, but it has bigger margins. Begin a blockquote
+      with &lt;blockquote&gt; and end it with &lt;/blockquote&gt;. Environments such as blockquotes, lists, etc,
+      that have a
+      beginning and an end always use paired commands like &lt;blah&gt;...&lt;/blah&gt;.
+      <blockquote>
+        This is a blockquote inside another blockquote, which shows how HTML environments can be "nested".
+      </blockquote>
+      Here we are back in the first blockquote again.
     </blockquote>
-  </p>
-  <P>
-    <b>This sentence is bold.</b> <i> This sentence is in italics.</i> <b><i>This sentence
-        is in bold italics. </i></b> This sentence is in typewriter font. This sentence has <u>underlined
-      words</u> and <u><b>underlined bold words.</b></u>. This sentence has colored words. This sentence has big
-    words. This
-    one has very big words. This one has very small words.
-  </P>
-  <blockquote>
-    This is a "blockquote", which is like a regular paragraph, but it has bigger margins. Begin a blockquote
-    with &lt;blockquote&gt; and end it with &lt;/blockquote&gt;. Environments such as blockquotes, lists, etc,
-    that have a
-    beginning and an end always use paired commands like &lt;blah&gt;...&lt;/blah&gt;.
-    <blockquote>
-      This is a blockquote inside another blockquote, which shows how HTML environments can be "nested".
-    </blockquote>
-    Here we are back in the first blockquote again.
-  </blockquote>
-  And here we are back outside of the first blockquote.
+    And here we are back outside of the first blockquote.
+  </div>
   <hr>
   <h3 style="color: grey; background-color: white" id="lists">6. Lists</h3>
-  <p>
+  <p class="chapter-6">
     Here is an Unordered (bullet) List (&lt;ul&gt;...&lt;ul&gt;):
   </p>
-  <ul>
+  <ul class="chapter-6">
     <li>This is a List Item (&lt;li&gt;)</li>
     <li>This is an another item.</li>
     <li>This is yet another item.</li>
   </ul>
-  <p>
+  <p class="chapter-6">
     Here is an Ordored (numbered) List (&lt;ol&gt;...&lt;ol&gt;):
   </p>
-  <ol>
+  <ol class="chapter-6">
     <li>This is a List Item (&lt;li&gt;)</li>
     <li>This is an another item.</li>
     <li>This is yet another item.</li>
   </ol>
-  <p>
+  <p class="chapter-6">
     And here is a Description List (&lt;dl&gt;). Using Kermit commands as an example:
   </p>
-  <dl>
+  <dl class="chapter-6">
     <dt>SET FILE TYPE BINARY</dt>
     <dd>This command tells Kermit to transfer files in binary mode. In other words, don't mess with the file,
       just send it as-is. The result on the receiving computer should be identical to the original.</dd>
@@ -365,10 +373,10 @@
       as VMS and Unix, or Unix and Windows. It converts the file's format and character-set (if necessary) so
       the received file is usable on the destination computer.</dd>
   </dl>
-  <p>
+  <p class="chapter-6">
     You can have lists within lists:
   </p>
-  <ol>
+  <ol class="chapter-6">
     <li>A gromet</li>
     <li>A widget</li>
     <li>A framus, which consists of the following components:</li>
@@ -384,10 +392,10 @@
     </ul>
     <li>A doodad.</li>
   </ol>
-  <p>
+  <p class="chapter-6">
     And you can have ordered lists that use letters instead of numbers:
   </p>
-  <ol type="a">
+  <ol class="chapter-6" type="a">
     <li>Pennies</li>
     <li>Nickels</li>
     <li>Dimes</li>
