@@ -1,5 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+<link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+<style>
+  .pic-blue-border {
+    border-color: #0535c2;
+    border-width: 10px 15px 10px 15px;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+  .table-red {
+    color: red;
+    font: bold;
+  }
+
+  .table-green {
+    color: green;
+    font: bold;
+  }
+
+  .table-blue {
+    color: blue;
+    font: bold;
+  }
+
+  .background {
+    background-color: lightgrey;
+  }
+
+  th {
+    background-color: white;
+  }
+</style>
 
 <head>
   <META charset="UTF-8" />
@@ -9,9 +41,9 @@
   </title>
 </head>
 
-<body style="width: 100%; max-width:720px">
+<body class="background" style="width: 100%; max-width:720px">
   <h2>Sample Web Page</h2>
-  <img src="http://www.columbia.edu/~fdc/picture-of-something.jpg" />
+  <img class="pic-blue-border" src="http://www.columbia.edu/~fdc/picture-of-something.jpg" />
   <p><i>A random photo</i></p>
   <p>
     <a href="http://www.columbia.edu/~fdc/">Frank da Cruz</a><br />
@@ -34,7 +66,7 @@
     </ol>
   </p>
   <hr>
-  <h3 id="create-a-web-page">1. Creating a Web Page</h3>
+  <h3 style="color: black" id="create-a-web-page">1. Creating a Web Page</h3>
   <p>
     This page was typed by hand. Anybody can do this,
     you don't need any special "web creation" tools or HTML editors,
@@ -66,20 +98,19 @@
       create your first Web page.</dd>
   </p>
   <hr>
-  <h3 id="html-syntax">2. HTML Syntax</h3>
+  <h3 style="color: blue" id="html-syntax">2. HTML Syntax</h3>
   <p>
     Web pages are written in Hyper Text Markup Language (HTML). HTML has
     three special characters: &lt;, &amp;, &gt;. An HTML command is enclosed in &lt;...&gt;,
     for example &lt;p&gt;, which is a paragraph separator, or &lt;b&gt; ("begin bold") and
     &lt;/b&gt; ("end bold"). So the following HTML text:
   </p>
-  <blockquote></blockquote>
-  <pre>
-             This sentence contains &lt;b&gt;bold&lt;/b&gt; text.
-        </pre>
+  <blockquote>
+    <pre>
+      This sentence contains &lt;b&gt;bold&lt;/b&gt; text.
+    </pre>
   </blockquote>
   <p>
-
     produces:
   </p>
   <p>
@@ -174,7 +205,7 @@
     The next sections tell how to achieve different kinds of effects.
   </p>
   <hr>
-  <h3 id="special-characters">3. Special Characters</h3>
+  <h3 style="color: brown" id="special-characters">3. Special Characters</h3>
   <p>
     HTML special "character entities" start with ampersand (&amp;) and end with semicolon (;), like "&amp;euro"
     = "&euro;". The ever-popular "no-break space"
@@ -234,7 +265,7 @@
     you have to write &amp;lt; &amp;amp;, &amp;gt;, respectively.
   </p>
   <hr>
-  <h3 id="converting-plain-text-html">4. Converting Plain Text HTML</h3>
+  <h3 style="color: cyan" id="converting-plain-text-html">4. Converting Plain Text HTML</h3>
   <p>
     If you have a plain text file that you want to convert to HTML, load the file into a
     plain-text editor and then follow these steps.
@@ -268,7 +299,7 @@
     back by hand (next section).
   </p>
   <hr>
-  <h3 id="effects">5. Effects</h3>
+  <h3 style="color: green" id="effects">5. Effects</h3>
   <p>
     The rest of this document shows some of what you can do with simple HTML commands,
     but I don't explain how to do it. To see that, just tell your browser to
@@ -301,7 +332,7 @@
   </blockquote>
   And here we are back outside of the first blockquote.
   <hr>
-  <h3 id="lists">6. Lists</h3>
+  <h3 style="color: grey; background-color: white" id="lists">6. Lists</h3>
   <p>
     Here is an Unordered (bullet) List (&lt;ul&gt;...&lt;ul&gt;):
   </p>
@@ -363,7 +394,7 @@
     <li>Quarters</li>
   </ol>
   <hr>
-  <h3 id="links">7. Links</h3>
+  <h3 style="color: magenta" id="links">7. Links</h3>
   <p>
     Links can be internal within a Web page (like to the <a href="#contents">Table of Contents</a> at the top),
     or they can be to
@@ -385,7 +416,7 @@
     to see it.
   </p>
   <hr>
-  <h3 id="tables">8. Tables</h3>
+  <h3 style="color: orange" id="tables">8. Tables</h3>
   <p>
     Here's a simple table with some headings and few rows:
   </p>
@@ -393,22 +424,22 @@
     <table>
       <tr>
         <th>Heading A</th>
-        <th>Heading B</th>
+        <th style="background-color: rgb(127,255,212)">Heading B</th>
         <th>Heading C</th>
       </tr>
-      <tr>
+      <tr style="background-color:rgb(127,255,212)">
         <td>Cell 1A</td>
-        <td>Cell 1B</td>
+        <td style="background-color: rgb(255,255,255)">Cell 1B</td>
         <td>Cell 1C</td>
       </tr>
-      <tr>
+      <tr style="background-color: rgb(255,255,255)">
         <td>Cell 2A</td>
-        <td>Cell 2B</td>
+        <td style="background-color:rgb(127,255,212)">Cell 2B</td>
         <td>Cell 2C</td>
       </tr>
-      <tr>
+      <tr style="background-color:rgb(127,255,212)">
         <td>Cell 3A</td>
-        <td>Cell 3B</td>
+        <td style="background-color: rgb(255,255,255)">Cell 3B</td>
         <td>Cell 3C</td>
       </tr>
     </table>
@@ -419,24 +450,24 @@
   <blockquote>
     <table border="">
       <tr>
-        <th>Heading A</th>
-        <th>Heading B</th>
-        <th>Heading C</th>
+        <th style="background-color: #FFC0CB" class="table-red">Heading A</th>
+        <th style="background-color: #CBFFC0" class="table-green">Heading B</th>
+        <th style="background-color: #C0CBFF" class="table-blue">Heading C</th>
       </tr>
       <tr>
-        <td>Cell 1A</td>
-        <td>Cell 1B</td>
-        <td>Cell 1C</td>
+        <td style="background-color: #FFC0CB" class="table-red">Cell 1A</td>
+        <td style="background-color: #CBFFC0" class="table-green">Cell 1B</td>
+        <td style="background-color: #C0CBFF" class="table-blue">Cell 1C</td>
       </tr>
       <tr>
-        <td>Cell 2A</td>
-        <td>Cell 2B</td>
-        <td>Cell 2C</td>
+        <td style="background-color: #FFC0CB" class="table-red">Cell 2A</td>
+        <td style="background-color: #CBFFC0" class="table-green">Cell 2B</td>
+        <td style="background-color: #C0CBFF" class="table-blue">Cell 2C</td>
       </tr>
       <tr>
-        <td>Cell 3A</td>
-        <td>Cell 3B</td>
-        <td>Cell 3C</td>
+        <td style="background-color: #FFC0CB" class="table-red">Cell 3A</td>
+        <td style="background-color: #CBFFC0" class="table-green">Cell 3B</td>
+        <td style="background-color: #C0CBFF" class="table-blue">Cell 3C</td>
       </tr>
     </table>
   </blockquote>
@@ -472,8 +503,8 @@
     </table>
   </blockquote>
   <hr>
-  <h3 id="installing-your-web-page">9. Installing your Web Page on the Internet</h3>
-  <p>
+  <h3 style="color: pink" id="installing-your-web-page">9. Installing your Web Page on the Internet</h3>
+  <p style="font-family: Space-mono, monospace">
     How to put your web page on the Internet depends on your Internet Service Provider (ISP). At Columbia
     University, each user has a "shell account" on the central server, which runs a Unix-based operating system,
     and which you can access with a terminal emulator such as <a href="http://www.columbia.edu/kermit/">Kermit</a>.
@@ -613,7 +644,7 @@
     commands and utilities.
   </p>
   <hr>
-  <h3 id="where-to-go-from-here">10. Where to go from here</h3>
+  <h3 style="color: violet" id="where-to-go-from-here">10. Where to go from here</h3>
   <p>
     Most Web pages are created by hideous bloated "Web Authoring" tools, which are usually designed to hook you (and
     readers of your web pages) into some corporate profit-making scheme. If all you want is text with some pictures and
