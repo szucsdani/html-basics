@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Loved+by+the+King&display=swap" rel="stylesheet">
 <style>
   .pic-blue-border {
     border-color: #0535c2;
@@ -44,6 +45,50 @@
 
   a:hover {
     color: #ff3300;
+    background: linear-gradient(90deg, red, yellow, green, blue)
+  }
+
+  .welcome-box {
+    position: relative;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 700px;
+    height: 50px;
+
+    background-color: #A8AAC0;
+    border-radius: 4px;
+    box-shadow: 8px 7px 20px 8px #a6280460;
+    font-family: Loved-by-the-King, cursive;
+    color: #720000;
+    font-size: 20px;
+  }
+
+  .title-center {
+    margin: 10px 10px 10px 200px;
+  }
+
+  .title-center:hover {
+    animation-name: love;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes love {
+    0% {
+      color: #720000;
+    }
+
+    50% {
+      color: #ff3300;
+    }
+
+    100% {
+      color: #720000;
+    }
   }
 </style>
 
@@ -81,6 +126,9 @@
   </p>
   <hr>
   <h3 style="color: black" id="create-a-web-page">1. Creating a Web Page</h3>
+  <div class="welcome-box">
+    <div class="title-center">mmmmmM&aacute;t&eacute; az igazi :&gt;</div>
+  </div>
   <p>
     This page was typed by hand. Anybody can do this,
     you don't need any special "web creation" tools or HTML editors,
