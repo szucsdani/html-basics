@@ -67,11 +67,12 @@
   }
 
   .title-center {
-    margin: 10px 10px 10px 200px;
+    text-align: center;
   }
 
   .title-center:hover {
     animation-name: love;
+    font-size: 0;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
@@ -89,6 +90,11 @@
     100% {
       color: #720000;
     }
+  }
+
+  .title-center:hover:after {
+    content: "Matesz az igazi! :>";
+    font-size: 20px;
   }
 </style>
 
@@ -127,7 +133,9 @@
   <hr>
   <h3 style="color: black" id="create-a-web-page">1. Creating a Web Page</h3>
   <div class="welcome-box">
-    <div class="title-center">mmmmmM&aacute;t&eacute; az igazi :&gt;</div>
+    <div class="title-center">
+      Szia M&aacute;t&eacute;! H&uacute;zd ide az egeret!
+    </div>
   </div>
   <p>
     This page was typed by hand. Anybody can do this,
