@@ -4,7 +4,6 @@
   border-style: solid;
   border-radius: 10px;
 }
-
 .table-red {
   color: red;
   font: bold;
@@ -90,4 +89,79 @@ a:hover {
 .title-center:hover:after {
   content: "Matesz az igazi! :>";
   font-size: 20px;
+}
+.table1 {
+  animation-name: knight-rider;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes knight-rider {
+  0% {
+    left: 30px;
+  }
+  50% {
+    left: 400px;
+  }
+  100% {
+    left: 30px;
+  }
+}
+.move-it {
+  position: relative;
+  margin: auto;
+  top: 20px;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+  width: 300px;
+  height: 70px;
+  background-color: #ff3300;
+  animation-name: julien;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes julien {
+  0% {
+    left: 20px;
+  }
+  11.764% {
+    left: 140px;
+  }
+  23.528% {
+    left: 20px;
+  }
+  35.292% {
+    left: 140px;
+  }
+  41.174% {
+    left: 20px;
+  }
+  47.056% {
+    left: 140px;
+  }
+  58.82% {
+    left: 20px;
+  }
+  70.584% {
+    left: 140px;
+  }
+  76.466% {
+    left: 20px;
+  }
+  82.248% {
+    left: 140px;
+  }
+  88.23% {
+    left: 20px;
+  }
+  94.112% {
+    left: 140px;
+  }
+  100% {
+    left: 20px;
+  }
+}
+.format-text {
+  margin: 20px 10px 20px 10px;
+  padding: 20px 10px 20px 10px;
 }
