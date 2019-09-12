@@ -14,7 +14,7 @@
 
 <body class="background" style="width: 100%; max-width:720px">
   <h2>Sample Web Page</h2>
-  <img class="pic-blue-border" src="http://www.columbia.edu/~fdc/picture-of-something.jpg" />
+  <img class="pic-blue-border table1" src="http://www.columbia.edu/~fdc/picture-of-something.jpg" />
   <p><i>A random photo</i></p>
   <p>
     <a href="http://www.columbia.edu/~fdc/">Frank da Cruz</a><br />
@@ -43,7 +43,10 @@
       Szia M&aacute;t&eacute;! H&uacute;zd ide az egeret!
     </div>
   </div>
-  <p>
+  <div class="move-it">
+
+  </div>
+  <p class="format-text">
     This page was typed by hand. Anybody can do this,
     you don't need any special "web creation" tools or HTML editors,
     and the pages you make can be viewed from any browser.
@@ -398,30 +401,33 @@
   <p>
     Here's a simple table with some headings and few rows:
   </p>
-  <blockquote>
-    <table>
-      <tr>
-        <th>Heading A</th>
-        <th style="background-color: rgb(127,255,212)">Heading B</th>
-        <th>Heading C</th>
-      </tr>
-      <tr style="background-color:rgb(127,255,212)">
-        <td>Cell 1A</td>
-        <td style="background-color: rgb(255,255,255)">Cell 1B</td>
-        <td>Cell 1C</td>
-      </tr>
-      <tr style="background-color: rgb(255,255,255)">
-        <td>Cell 2A</td>
-        <td style="background-color:rgb(127,255,212)">Cell 2B</td>
-        <td>Cell 2C</td>
-      </tr>
-      <tr style="background-color:rgb(127,255,212)">
-        <td>Cell 3A</td>
-        <td style="background-color: rgb(255,255,255)">Cell 3B</td>
-        <td>Cell 3C</td>
-      </tr>
-    </table>
-  </blockquote>
+  <div id="table1">
+    <blockquote>
+      <table>
+
+        <tr>
+          <th>Heading A</th>
+          <th style="background-color: rgb(127,255,212)">Heading B</th>
+          <th>Heading C</th>
+        </tr>
+        <tr style="background-color:rgb(127,255,212)">
+          <td>Cell 1A</td>
+          <td style="background-color: rgb(255,255,255)">Cell 1B</td>
+          <td>Cell 1C</td>
+        </tr>
+        <tr style="background-color: rgb(255,255,255)">
+          <td>Cell 2A</td>
+          <td style="background-color:rgb(127,255,212)">Cell 2B</td>
+          <td>Cell 2C</td>
+        </tr>
+        <tr style="background-color:rgb(127,255,212)">
+          <td>Cell 3A</td>
+          <td style="background-color: rgb(255,255,255)">Cell 3B</td>
+          <td>Cell 3C</td>
+        </tr>
+      </table>
+    </blockquote>
+  </div>
   <p>
     Same table again but with borders:
   </p>
