@@ -116,52 +116,124 @@ a:hover {
   width: 300px;
   height: 70px;
   background-color: #ff3300;
+  border-radius: 10px;
   animation-name: julien;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 @keyframes julien {
   0% {
-    left: 20px;
+    left: -140px;
+    transform: skewx(0deg);
+  }
+  0.001% {
+    background-color: #0535c2;
+  }
+  3% {
+    background-color: #ff3300;
   }
   11.764% {
     left: 140px;
+    transform: skewx(-30deg);
   }
   23.528% {
-    left: 20px;
+    left: -140px;
+    transform: skewx(30deg);
   }
   35.292% {
     left: 140px;
+    transform: skewx(-30deg);
   }
   41.174% {
-    left: 20px;
+    left: -140px;
+    transform: skewx(30deg);
   }
   47.056% {
     left: 140px;
+    background-color: #ff3300;
+    transform: skewx(-30deg);
+  }
+  47.057% {
+    background-color: #0535c2;
+  }
+  50% {
+    background-color: #ff3300;
   }
   58.82% {
-    left: 20px;
+    left: -140px;
+    transform: skewx(30deg);
   }
   70.584% {
     left: 140px;
+    transform: skewx(-30deg);
   }
   76.466% {
-    left: 20px;
+    left: -140px;
+    transform: skewx(30deg);
   }
   82.248% {
     left: 140px;
+    transform: skewx(-30deg);
   }
   88.23% {
-    left: 20px;
+    left: -140px;
+    transform: skewx(30deg);
   }
   94.112% {
     left: 140px;
+    transform: skewx(-30deg);
   }
   100% {
-    left: 20px;
+    left: -140px;
+    transform: skewX(30deg);
   }
 }
 .format-text {
   margin: 20px 10px 20px 10px;
   padding: 20px 10px 20px 10px;
+}
+body {
+  width: 80%;
+  text-size-adjust: 80%;
+  padding: auto;
+}
+.menu-top1 {
+  position: fixed;
+  left: 0px;
+}
+.menu-top2 {
+  position: fixed;
+  left: 140px;
+}
+.menu-top3 {
+  position: fixed;
+  left: 240px;
+}
+.menu-top4 {
+  position: fixed;
+  left: 365px;
+}
+.menu-top5 {
+  position: fixed;
+  left: 560px;
+}
+.menu-top6 {
+  position: fixed;
+  left: 610px;
+}
+.menu-top7 {
+  position: fixed;
+  left: 645px;
+}
+.menu-top8 {
+  position: fixed;
+  left: 685px;
+}
+.menu-top9 {
+  position: fixed;
+  left: 730px;
+}
+.menu-top10 {
+  position: fixed;
+  left: 995px;
 }
