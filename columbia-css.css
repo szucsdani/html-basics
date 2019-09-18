@@ -198,42 +198,43 @@ body {
   padding: auto;
 }
 .menu-top1 {
-  position: fixed;
   left: 0px;
 }
 .menu-top2 {
-  position: fixed;
   left: 140px;
 }
 .menu-top3 {
-  position: fixed;
   left: 240px;
 }
 .menu-top4 {
-  position: fixed;
   left: 365px;
 }
 .menu-top5 {
-  position: fixed;
   left: 560px;
 }
 .menu-top6 {
-  position: fixed;
   left: 610px;
 }
 .menu-top7 {
-  position: fixed;
   left: 645px;
 }
 .menu-top8 {
-  position: fixed;
   left: 685px;
 }
 .menu-top9 {
-  position: fixed;
   left: 730px;
 }
 .menu-top10 {
-  position: fixed;
   left: 995px;
+}
+.menu-top-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.ideges {
+  position: fixed;
 }
