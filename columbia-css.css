@@ -41,14 +41,14 @@ a:hover {
   color: #ff3300;
   background: linear-gradient(90deg, red, yellow, green, blue);
 }
-
+.menu-box {
+  width: 1200px;
+  height: 50px;
+  background-color: aqua;
+}
 .welcome-box {
   position: relative;
   margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   width: 700px;
   height: 50px;
 
@@ -90,22 +90,7 @@ a:hover {
   content: "Matesz az igazi! :>";
   font-size: 20px;
 }
-.table1 {
-  animation-name: knight-rider;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-@keyframes knight-rider {
-  0% {
-    left: 30px;
-  }
-  50% {
-    left: 400px;
-  }
-  100% {
-    left: 30px;
-  }
-}
+
 .move-it {
   position: relative;
   margin: auto;
@@ -228,12 +213,8 @@ body {
   left: 995px;
 }
 .menu-top-main {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   margin: auto;
+  text-align: center;
 }
 .listazo {
   margin: auto;
@@ -243,4 +224,15 @@ body {
 table {
   margin: auto;
   width: auto;
+}
+.oszlop {
+  column-count: 2;
+  column-gap: 100px;
+  column-width: 300px;
+}
+.just-a-box {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  background-color: lightgreen;
 }
