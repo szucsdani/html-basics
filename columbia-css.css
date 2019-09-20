@@ -1,96 +1,77 @@
-.pic-blue-border {
-  border-color: #0535c2;
-  border-width: 10px 15px 10px 15px;
-  border-style: solid;
-  border-radius: 10px;
+a:hover {
+  color: #ff3300;
+  background: linear-gradient(90deg, red, yellow, green, blue);
 }
-.table-red {
-  color: red;
-  font: bold;
-}
-
-.table-green {
-  color: green;
-  font: bold;
-}
-
-.table-blue {
-  color: blue;
-  font: bold;
-}
-
 .background {
   background-color: lightgrey;
 }
-
-th {
-  background-color: white;
+body {
+  width: 80%;
+  text-size-adjust: 80%;
+  padding: auto;
 }
-
 .chapter-6 {
   background: white;
   font: italic;
   font-family: "Times New Roman", Times, serif;
 }
-
+.format-text {
+  margin: 20px 10px 20px 10px;
+  padding: 20px 10px 20px 10px;
+}
 h3 {
   font-size: 25px;
 }
-
-a:hover {
-  color: #ff3300;
-  background: linear-gradient(90deg, red, yellow, green, blue);
+.just-a-box {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  background-color: lightgreen;
+}
+.listazo {
+  margin: auto;
+  width: 500px;
+  text-align: left;
 }
 .menu-box {
   width: 1200px;
   height: 50px;
   background-color: aqua;
 }
-.welcome-box {
-  position: relative;
-  margin: auto;
-  width: 700px;
-  height: 50px;
-
-  background-color: #a8aac0;
-  border-radius: 4px;
-  box-shadow: 8px 7px 20px 8px #a6280460;
-  font-family: Loved-by-the-King, cursive;
-  color: #720000;
-  font-size: 20px;
+.menu-top1 {
+  left: 0px;
 }
-
-.title-center {
+.menu-top2 {
+  left: 140px;
+}
+.menu-top3 {
+  left: 240px;
+}
+.menu-top4 {
+  left: 365px;
+}
+.menu-top5 {
+  left: 560px;
+}
+.menu-top6 {
+  left: 610px;
+}
+.menu-top7 {
+  left: 645px;
+}
+.menu-top8 {
+  left: 685px;
+}
+.menu-top9 {
+  left: 730px;
+}
+.menu-top10 {
+  left: 995px;
+}
+.menu-top-main {
+  margin: auto;
   text-align: center;
 }
-
-.title-center:hover {
-  animation-name: love;
-  font-size: 0;
-  animation-duration: 0.3s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-}
-
-@keyframes love {
-  0% {
-    color: #720000;
-  }
-
-  50% {
-    color: #ff3300;
-  }
-
-  100% {
-    color: #720000;
-  }
-}
-
-.title-center:hover:after {
-  content: "Matesz az igazi! :>";
-  font-size: 20px;
-}
-
 .move-it {
   position: relative;
   margin: auto;
@@ -173,66 +154,73 @@ a:hover {
     transform: skewX(30deg);
   }
 }
-.format-text {
-  margin: 20px 10px 20px 10px;
-  padding: 20px 10px 20px 10px;
-}
-body {
-  width: 80%;
-  text-size-adjust: 80%;
-  padding: auto;
-}
-.menu-top1 {
-  left: 0px;
-}
-.menu-top2 {
-  left: 140px;
-}
-.menu-top3 {
-  left: 240px;
-}
-.menu-top4 {
-  left: 365px;
-}
-.menu-top5 {
-  left: 560px;
-}
-.menu-top6 {
-  left: 610px;
-}
-.menu-top7 {
-  left: 645px;
-}
-.menu-top8 {
-  left: 685px;
-}
-.menu-top9 {
-  left: 730px;
-}
-.menu-top10 {
-  left: 995px;
-}
-.menu-top-main {
-  margin: auto;
-  text-align: center;
-}
-.listazo {
-  margin: auto;
-  width: 500px;
-  text-align: left;
-}
-table {
-  margin: auto;
-  width: auto;
-}
 .oszlop {
   column-count: 2;
   column-gap: 100px;
   column-width: 300px;
 }
-.just-a-box {
+.pic-blue-border {
+  border-color: #0535c2;
+  border-width: 10px 15px 10px 15px;
+  border-style: solid;
+  border-radius: 10px;
+}
+table {
   margin: auto;
-  width: 50px;
+  width: auto;
+}
+.table-blue {
+  color: blue;
+  font: bold;
+}
+.table-green {
+  color: green;
+  font: bold;
+}
+.table-red {
+  color: red;
+  font: bold;
+}
+.title-center {
+  text-align: center;
+}
+.title-center:hover {
+  animation-name: love;
+  font-size: 0;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes love {
+  0% {
+    color: #720000;
+  }
+
+  50% {
+    color: #ff3300;
+  }
+
+  100% {
+    color: #720000;
+  }
+}
+.title-center:hover:after {
+  content: "Matesz az igazi! :>";
+  font-size: 20px;
+}
+th {
+  background-color: white;
+}
+.welcome-box {
+  position: relative;
+  margin: auto;
+  width: 700px;
   height: 50px;
-  background-color: lightgreen;
+
+  background-color: #a8aac0;
+  border-radius: 4px;
+  box-shadow: 8px 7px 20px 8px #a6280460;
+  font-family: Loved-by-the-King, cursive;
+  color: #720000;
+  font-size: 20px;
 }
