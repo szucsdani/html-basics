@@ -15,6 +15,9 @@ body {
   font: italic;
   font-family: "Times New Roman", Times, serif;
 }
+#flexin {
+  display: flex;
+}
 .format-text {
   margin: 20px 10px 20px 10px;
   padding: 20px 10px 20px 10px;
@@ -34,11 +37,11 @@ h3 {
   text-align: left;
 }
 .menu-box {
-  width: 1200px;
+  width: 1100px;
   height: 50px;
   background-color: aqua;
 }
-.menu-top1 {
+/*.menu-top1 {
   left: 0px;
 }
 .menu-top2 {
@@ -67,7 +70,8 @@ h3 {
 }
 .menu-top10 {
   left: 995px;
-}
+}*/
+
 .menu-top-main {
   margin: auto;
   text-align: center;
