@@ -1,0 +1,237 @@
+a:hover {
+  color: #ff3300;
+  background: linear-gradient(90deg, red, yellow, green, blue);
+}
+.background {
+  background-color: lightgrey;
+}
+body {
+  width: 80%;
+  text-size-adjust: 80%;
+  padding: auto;
+}
+.chapter-6 {
+  background: white;
+  font: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+/*#flexin {
+  display: flex;
+}*/
+#gridin {
+  grid-template-columns: 135 95 120 190 45 30 35 40 260 1fr;
+}
+.format-text {
+  margin: 20px 10px 20px 10px;
+  padding: 20px 10px 20px 10px;
+}
+h3 {
+  font-size: 25px;
+}
+.just-a-box {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  background-color: lightgreen;
+}
+.listazo {
+  margin: auto;
+  width: 500px;
+  text-align: left;
+}
+.menu-box {
+  width: 1200px;
+  height: 25px;
+  top: 15px;
+  background-color: aqua;
+}
+.menu-greyscale {
+  background-color: #a8aac0;
+}
+/*.menu-top1 {
+  left: 0px;
+}
+.menu-top2 {
+  left: 140px;
+}
+.menu-top3 {
+  left: 240px;
+}
+.menu-top4 {
+  left: 365px;
+}
+.menu-top5 {
+  left: 560px;
+}
+.menu-top6 {
+  left: 610px;
+}
+.menu-top7 {
+  left: 645px;
+}
+.menu-top8 {
+  left: 685px;
+}
+.menu-top9 {
+  left: 730px;
+}
+.menu-top10 {
+  left: 995px;
+}*/
+
+.menu-top-main {
+  margin: auto;
+  text-align: center;
+}
+.move-it {
+  position: relative;
+  margin: auto;
+  top: 20px;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+  width: 300px;
+  height: 70px;
+  background-color: #ff3300;
+  border-radius: 10px;
+  animation-name: julien;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes julien {
+  0% {
+    left: -140px;
+    transform: skewx(0deg);
+  }
+  0.001% {
+    background-color: #0535c2;
+  }
+  3% {
+    background-color: #ff3300;
+  }
+  11.764% {
+    left: 140px;
+    transform: skewx(-30deg);
+  }
+  23.528% {
+    left: -140px;
+    transform: skewx(30deg);
+  }
+  35.292% {
+    left: 140px;
+    transform: skewx(-30deg);
+  }
+  41.174% {
+    left: -140px;
+    transform: skewx(30deg);
+  }
+  47.056% {
+    left: 140px;
+    background-color: #ff3300;
+    transform: skewx(-30deg);
+  }
+  47.057% {
+    background-color: #0535c2;
+  }
+  50% {
+    background-color: #ff3300;
+  }
+  58.82% {
+    left: -140px;
+    transform: skewx(30deg);
+  }
+  70.584% {
+    left: 140px;
+    transform: skewx(-30deg);
+  }
+  76.466% {
+    left: -140px;
+    transform: skewx(30deg);
+  }
+  82.248% {
+    left: 140px;
+    transform: skewx(-30deg);
+  }
+  88.23% {
+    left: -140px;
+    transform: skewx(30deg);
+  }
+  94.112% {
+    left: 140px;
+    transform: skewx(-30deg);
+  }
+  100% {
+    left: -140px;
+    transform: skewX(30deg);
+  }
+}
+.oszlop {
+  column-count: 2;
+  column-gap: 100px;
+  column-width: 300px;
+}
+.pic-blue-border {
+  border-color: #0535c2;
+  border-width: 10px 15px 10px 15px;
+  border-style: solid;
+  border-radius: 10px;
+}
+table {
+  margin: auto;
+  width: auto;
+}
+.table-blue {
+  color: blue;
+  font: bold;
+}
+.table-green {
+  color: green;
+  font: bold;
+}
+.table-red {
+  color: red;
+  font: bold;
+}
+.title-center {
+  text-align: center;
+}
+.title-center:hover {
+  animation-name: love;
+  font-size: 0;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes love {
+  0% {
+    color: #720000;
+  }
+
+  50% {
+    color: #ff3300;
+  }
+
+  100% {
+    color: #720000;
+  }
+}
+.title-center:hover:after {
+  content: "Matesz az igazi! :>";
+  font-size: 20px;
+}
+th {
+  background-color: white;
+}
+.welcome-box {
+  position: relative;
+  margin: auto;
+  width: 700px;
+  height: 50px;
+
+  background-color: #a8aac0;
+  border-radius: 4px;
+  box-shadow: 8px 7px 20px 8px #a6280460;
+  font-family: Loved-by-the-King, cursive;
+  color: #720000;
+  font-size: 20px;
+}
